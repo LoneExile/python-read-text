@@ -6,16 +6,16 @@
 
 read from selected area
 
-pip install opencv-python pytesseract
+`pip install opencv-python pytesseract`
 
 ## copy text from pdf
 
-copy test from selected area
+copy text from selected area
 
-pip install pymupdf pdf-annotate
+`pip install pymupdf pdf-annotate`
 
 -----
-### pdf to image command
+#### pdf to image command
 
 ```bash
 
@@ -32,7 +32,7 @@ pdftoppm -png -f 10 -l 15 test.pdf output
 
 ```
 
-## change image format (png to jpeg)
+#### change image format (png to jpeg)
 
 ```bash
 
